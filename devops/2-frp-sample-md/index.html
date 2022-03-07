@@ -246,10 +246,11 @@
 
 <p>启动：<code>./frps -c ./frps.ini</code></p>
 <h2 id="客户端配置"><a href="#客户端配置" class="headerlink" title="客户端配置"></a>客户端配置</h2><p>编辑：<code>vim frpc.ini</code></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[common]</span><br><span class="line">server_addr = YOUR SERVER IP</span><br><span class="line">server_port = YOUR PORT</span><br><span class="line">privilege_token = YOUR PASSWORD</span><br><span class="line"></span><br><span class="line">[web]</span><br><span class="line">type = tcp</span><br><span class="line">local_port = 443</span><br><span class="line">remote_port=443</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[common]</span><br><span class="line">server_addr = YOUR SERVER IP</span><br><span class="line">server_port = YOUR PORT</span><br><span class="line">privilege_token = YOUR PASSWORD</span><br><span class="line"></span><br><span class="line">[web]</span><br><span class="line">type = tcp</span><br><span class="line">local_port = 443</span><br><span class="line">remote_port= 443</span><br></pre></td></tr></table></figure>
 
 <p>启动：<code>./frpc -c ./frpc.ini</code></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>经过如此简单的配置，成功代理本地无公网 IP 机器上的 Web HTTPS 服务。代理的是 TCP 其他服务也没有问题，官网有更详细的文档。<code>https://gofrp.org/docs/</code>，开始的第一步是成功运行服务，更高级的使用可以慢慢学习添加。</p>
+<p>如果不成功注意查看防火墙自己自定义的端口是否打开了。</p>
 
     </div>
 
