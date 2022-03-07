@@ -212,11 +212,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/BlockChain/" itemprop="url" rel="index"><span itemprop="name">BlockChain</span></a>
+          <a href="/categories/Blockchain/" itemprop="url" rel="index"><span itemprop="name">Blockchain</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/BlockChain/Substrate/" itemprop="url" rel="index"><span itemprop="name">Substrate</span></a>
+          <a href="/categories/Blockchain/Substrate/" itemprop="url" rel="index"><span itemprop="name">Substrate</span></a>
         </span>
     </span>
 
@@ -243,11 +243,11 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/blog/init" rel="prev" title="第一篇博客">
+                  <i class="fa fa-chevron-left"></i> 第一篇博客
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/blog/init" rel="next" title="第一篇博客">
-                  第一篇博客 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
