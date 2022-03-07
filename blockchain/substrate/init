@@ -130,13 +130,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
   </nav>
@@ -243,8 +243,8 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/blog/init" rel="prev" title="第一篇博客">
-                  <i class="fa fa-chevron-left"></i> 第一篇博客
+                <a href="/blockchain/octopus-network/init" rel="prev" title="Web3.0 - 基于 Octopus Network 开发 Appchain - 搭建环境">
+                  <i class="fa fa-chevron-left"></i> Web3.0 - 基于 Octopus Network 开发 Appchain - 搭建环境
                 </a>
             </div>
             <div class="post-nav-item">
